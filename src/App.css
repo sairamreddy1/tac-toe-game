@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: #121212;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  background: #222;
+  border: 2px solid #555;
+  font-size: 40px;
+  font-weight: bold;
+  color: #61dafb;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.square:hover {
+  background: #333;
+}
+
+.status {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.reset {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: #61dafb;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reset:hover {
+  background: #21a1f1;
+}
